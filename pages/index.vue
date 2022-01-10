@@ -1,13 +1,9 @@
 <template>
-  <Tutorial />
+  <div>
+    <Layer />
+  </div>
 </template>
 
 <script>
-export default {
-  asyncData() {
-    return {
-      likes: 0,
-    }
-  }
-};
+export default {};
 </script>
